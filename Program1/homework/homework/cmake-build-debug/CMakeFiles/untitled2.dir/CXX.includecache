@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ningsong/CLionProjects/untitled2/main.cpp
+iostream
+-
+vector
+-
+tbb/tbb.h
+-
+tbb/blocked_range.h
+-
+tbb/parallel_for.h
+-
+chrono
+-
+cmath
+-
+functional
+-
+random
+-
+unistd.h
+-
+tbb/task_scheduler_init.h
+-
+tbb/tick_count.h
+/Users/ningsong/CLionProjects/untitled2/tbb/tick_count.h
+

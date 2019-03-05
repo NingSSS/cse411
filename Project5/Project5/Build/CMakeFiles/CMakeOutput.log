@@ -1,0 +1,38 @@
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/ningsong/CLionProjects/Project5/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bcbac/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bcbac.dir/build.make CMakeFiles/cmTC_bcbac.dir/build
+Building C object CMakeFiles/cmTC_bcbac.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_bcbac.dir/CheckIncludeFile.c.o   -c /Users/ningsong/CLionProjects/Project5/Build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bcbac
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcbac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bcbac.dir/CheckIncludeFile.c.o  -o cmTC_bcbac 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/ningsong/CLionProjects/Project5/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25edc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_25edc.dir/build.make CMakeFiles/cmTC_25edc.dir/build
+Building C object CMakeFiles/cmTC_25edc.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_25edc.dir/CheckSymbolExists.c.o   -c /Users/ningsong/CLionProjects/Project5/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_25edc
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25edc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25edc.dir/CheckSymbolExists.c.o  -o cmTC_25edc 
+
+File /Users/ningsong/CLionProjects/Project5/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
